@@ -2,7 +2,7 @@ import json
 import datetime
 
 from pyhafas import HafasClient
-from pyhafas.profile.nasa import NASAProfile
+from pyhafas.profile import NASAProfile
 
 client = HafasClient(NASAProfile())
 
